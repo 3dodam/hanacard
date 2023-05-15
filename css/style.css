@@ -1092,7 +1092,7 @@ transition: 0.3s;
 .info a {color: #666;}
 .info a:hover {color: #00907f;}
 
-.info .nav {}
+.info .nav {margin-top: 20px;}
 .info .nav li {
   display: inline-block;
   padding: 10px;
@@ -1115,3 +1115,57 @@ transition: 0.3s;
   margin-right: 15px;
 }
 .info .f_address span{}
+
+.info .f_icon {margin-top: 20px;}
+.info .f_icon ul {
+  overflow: hidden;
+}
+.info .f_icon ul li {
+  float: left;
+  padding: 5px 30px 5px 0;
+}
+.info .f_icon ul li a {}
+
+.info .f_icon  ul li.fi1 {
+  background: url(../img/mark01.png) no-repeat;
+  padding-left: 45px;
+}
+.info .f_icon  ul li.fi2 {
+  background: url(../img/mark02.png) no-repeat;
+  padding-left: 45px;
+}
+.info .f_icon  ul li.fi3 {
+  background: url(../img/mark03.png) no-repeat;
+  padding-left: 45px;
+}
+.info .f_icon  ul li.fi4 {
+  background: url(../img/mark04.png) no-repeat;
+  padding-left: 60px;
+}
+.info .f_icon  ul li.fi5 {
+  background: url(../img/mark05.png) no-repeat;
+  padding-left: 45px;
+}
+
+.info .family_site {
+  position: absolute;
+  font-size: 14px;
+  right: 0; top: 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 7px 20px;
+}
+.info .family_site a {}
+.info .family_site a i {
+  padding-left: 20px;
+}
+
+.info .sns_icon {
+  position: absolute;
+  right: 0; top: 56px;
+}
+.info .sns_icon li {
+  display: inline;
+}
+.info .sns_icon a {}
+.info .sns_icon a img {}
